@@ -9,7 +9,7 @@ import sqlite3
 import random
 import sys
 
-from MarkovWords.PrepareChain import PrepareChain
+from MarkovWords.forGenerate import PrepareChain
 
 numb_sentence = 1
 
