@@ -10,6 +10,7 @@ import random
 import sys
 
 from MarkovWords.forGenerate import PrepareChain
+# from MarkovWords.PrepareChain import PrepareChain
 
 numb_sentence = 1
 
@@ -20,7 +21,7 @@ class GenerateText(object):
 
     # def __init__(self, n=10):
     def __init__(self):
-        print ("sentence_numb=" + str(numb_sentence))
+        # print ("sentence_numb=" + str(numb_sentence))
         """
         初期化メソッド
         @param n いくつの文章を生成するか

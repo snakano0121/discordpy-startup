@@ -45,7 +45,6 @@ async def on_message(message):
     RankEmotion = makewords.analyzeWord(message.content)[1]
 #    RankEmotion = -0.8
 
-
     # メッセージ送信者がBotだった場合は無視する
     if message.author.bot:
         return
